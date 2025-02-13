@@ -1,0 +1,112 @@
+/* src/components/Sections/Accelerator/Accelerator.module.css */
+.accelerator {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .intro {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #f6f6f6;
+    text-align: center;
+  }
+  
+  .investment {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #222;
+    text-align: center;
+  }
+  
+  .investmentItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .investmentItem span {
+    font-size: 1.5rem;
+  }
+  
+  .investmentItem p {
+    margin: 0;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .investmentItem strong {
+    color: #222;
+  }
+  
+  .perks {
+    margin-top: 2rem;
+  }
+  
+  .perksTitle {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #222;
+    text-align: center;
+  }
+  
+  .perksList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .perksList li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .perksList li span {
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .intro {
+      font-size: 1.1rem;
+    }
+  
+    .investment {
+      padding: 1.5rem;
+    }
+  
+    .subtitle {
+      font-size: 1.3rem;
+    }
+  
+    .investmentItem {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5rem;
+    }
+  
+    .perksList li {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5rem;
+    }
+  }
